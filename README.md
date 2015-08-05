@@ -1,4 +1,4 @@
 # MorphXArabica
 Arabic morphology usning Prolog
 
-Read "Morphology report.docx"
+Read "Morphology report.pdf"
