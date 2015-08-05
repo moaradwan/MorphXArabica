@@ -1,0 +1,20 @@
+﻿parse([ا, ع, ل, م], P).
+parse(["ي"," ع", "ل", "م"], P).
+parser('العلم  يعلم', P).
+parse('يُعلم', P).
+parse('اعلم', P).
+parser('ساعلم', P).
+parse('سيتعلم', P).
+parse('سيعلمهن', P).
+parse(['ي','ع', 'ل','م'], P).
+parse('فالى', P).
+parse('مدرسة', P).
+parse('المدرسة', P).
+يبل
+parser('ذهب محمد الى المدرسة', P).
+parser('ذهب محمد ', P).
+
+word(مدرسة, X).
+getFeats(P, Fe).
+ 
+getFeats([pref(ي), suf(ت), suf(م), suf(ا)],Fe).
